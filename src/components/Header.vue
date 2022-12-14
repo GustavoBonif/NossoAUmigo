@@ -27,8 +27,8 @@
                 </ul>
 
                 <div class="btn-group">
-                    <a href="#" class="btn btn-secondary">Entrar</a>
-                    <a href="#" class="btn btn-secondary">Registrar-se</a>
+                    <a class="btn btn-secondary">Entrar</a>
+                   <router-link to="/userRegister" class="btn btn-secondary">Registrar-se</router-link>
                 </div>
             </div>
             
