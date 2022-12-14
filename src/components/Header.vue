@@ -16,7 +16,7 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item badge badge-light">
                         <button class="btn btn-light">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <router-link to="/" class="nav-link">Home</router-link>
                         </button>
                     </li>
                     <li class="nav-item badge">
@@ -27,7 +27,7 @@
                 </ul>
 
                 <div class="btn-group">
-                    <router-link to="/userLogin" class="btn btn-secondary">Entrar</router-link>
+                   <router-link to="/userLogin" class="btn btn-secondary">Entrar</router-link>
                    <router-link to="/userRegister" class="btn btn-secondary">Registrar-se</router-link>
                 </div>
             </div>
