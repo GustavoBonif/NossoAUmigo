@@ -13,22 +13,24 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item badge badge-light">
-                        <button class="btn btn-light">
-                            <router-link to="/" class="nav-link">Home</router-link>
-                        </button>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <router-link to="/" class="nav-link">Home</router-link>
                     </li>
-                    <li class="nav-item badge">
-                        <button class="btn btn-light">
-                            <a class="nav-link" aria-current="page" href="#">Cachorros</a>
-                        </button>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Cachorros</a>
                     </li>
                 </ul>
 
                 <div class="btn-group">
-                   <router-link to="/userLogin" class="btn btn-secondary">Entrar</router-link>
-                   <router-link to="/userRegister" class="btn btn-secondary">Registrar-se</router-link>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <router-link to="/userLogin" class="nav-link">Entrar</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/userRegister" class="nav-link">Registrar-se</router-link>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
