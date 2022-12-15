@@ -1,7 +1,7 @@
 <template>
     <form class="m-auto w-50 pt-3">
         <hr>
-        <h2 class="text-center text-warning">Logar</h2>
+        <h2 class="text-center text-warning">Login</h2>
         <hr>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">E-mail</label>
