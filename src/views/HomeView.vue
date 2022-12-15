@@ -4,10 +4,16 @@
 
 <template>
   <main class="container">
-    <div class="row mt-2 d-flex justify-content-center mb-5">
-      <img src="@/assets/images/dog1.webp" alt="" class="img-dog w-25 rounded ">
-      <img src="@/assets/images/dog2.jpg" alt="" class="img-dog w-25 rounded ">
-      <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded">
+    <div class="row mt-2 mb-5 text-center">
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog1.webp" alt="" class="img-dog rounded ">
+      </router-link>
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog2.jpg" alt="" class="img-dog rounded ">
+      </router-link>
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog3.webp" alt="" class="img-dog rounded">
+      </router-link>
     </div>
     <div class="row">
       <div class="row col-12 m-1 d-flex mb-3">
@@ -63,5 +69,10 @@
 <style scoped>
 .img-perfil-user {
   width: 3%;
+}
+
+.img-dog {
+  width: 200px;
+  height: 150px;
 }
 </style>
