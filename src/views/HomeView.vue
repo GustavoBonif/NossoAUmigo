@@ -6,11 +6,17 @@
   <main class="container">
     <hr>
       <h4 class="text-center text-warning">Nossos AUmigos</h4>
-      <hr>
+    <hr>
     <div class="row mt-2 d-flex justify-content-center mb-5">
-      <img src="@/assets/images/dog1.webp" alt="" class="img-dog w-25 rounded ">
-      <img src="@/assets/images/dog2.jpg" alt="" class="img-dog w-25 rounded ">
-      <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded">
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog1.webp" alt="" class="img-dog rounded ">
+      </router-link>
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog2.jpg" alt="" class="img-dog rounded ">
+      </router-link>
+      <router-link to="/dogProfile" class="col-sm-6 col-md-4">
+        <img src="@/assets/images/dog3.webp" alt="" class="img-dog rounded">
+      </router-link>
     </div>
     <hr>
     <h4 class="text-center text-warning">Notícias</h4>
@@ -81,5 +87,10 @@
 <style scoped>
 .img-perfil-user {
   width: 3%;
+}
+
+.img-dog {
+  width: 200px;
+  height: 150px;
 }
 </style>
