@@ -4,7 +4,10 @@
 
 <template>
   <main class="container">
-    <div class="row mt-2 mb-5 text-center">
+    <hr>
+      <h4 class="text-center text-warning">Nossos AUmigos</h4>
+    <hr>
+    <div class="row mt-2 d-flex justify-content-center mb-5">
       <router-link to="/dogProfile" class="col-sm-6 col-md-4">
         <img src="@/assets/images/dog1.webp" alt="" class="img-dog rounded ">
       </router-link>
@@ -15,6 +18,9 @@
         <img src="@/assets/images/dog3.webp" alt="" class="img-dog rounded">
       </router-link>
     </div>
+    <hr>
+    <h4 class="text-center text-warning">Notícias</h4>
+    <hr>
     <div class="row">
       <div class="row col-12 m-1 d-flex mb-3">
         <div class="d-flex align-items-center mb-1">
@@ -23,7 +29,10 @@
         </div>
         <div class="d-flex">
           <img src="@/assets/images/dog1.webp" alt="" class="img-dog w-25 rounded me-2">
-          <p>O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+          <div>
+            <h5 class="text-left">Fora do Campus</h5>
+            <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+          </div>
         </div>
         <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:26</p>
       </div>
@@ -35,9 +44,12 @@
         </div>
         <div class="d-flex">
           <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded me-2">
-          <p>O cachorrinho está muito sujo! É preciso que alguém leve ele para tomar banho. Caso concordem, posso levar ele em um petshop aqui perto. O que me dizem?</p>
+          <div>
+            <h5 class="text-left">Fora do Campus</h5>
+            <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+          </div>
         </div>
-          <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:40</p>
+        <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:40</p>
       </div>
       <hr>
       <div class="row col-12 m-1 d-flex mb-3">
@@ -47,7 +59,10 @@
         </div>
         <div class="d-flex">
           <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded me-2">
-          <p>Vi ele brincando do outro lado da BR numa poça de água.</p>
+          <div>
+            <h5 class="text-left">Outro lado da BR</h5>
+            <p class="text-left">Vi ele brincando do outro lado da BR numa poça de água.</p>
+          </div>
         </div>
           <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:55</p>
       </div>
@@ -59,7 +74,10 @@
         </div>
         <div class="d-flex">
           <img src="@/assets/images/dog2.jpg" alt="" class="img-dog w-25 rounded me-2">
-          <p>Ele é muito fofoo!!</p>
+          <div>
+            <h5 class="text-left">Ownt!</h5>
+            <p class="text-left">Ele é muito fofoo!!.</p>
+          </div>
         </div>
           <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:59</p>
       </div>
