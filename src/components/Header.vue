@@ -3,6 +3,9 @@
 </script>
 
 <template>
+    <div id="add-button" class="hidden-md-down">
+        <a href="#" class="link-dark text-dark"><img src="@/assets/images/add.png" class="img-add"></a>
+	</div>
     <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
             <div class="navbar-brand">
@@ -42,5 +45,15 @@
 .header-logo {
     width: 60%;
     margin-left: 10%;
+}
+
+#add-button{
+  padding: 1%;
+  position:fixed;
+  left: 95%;
+  top: 85%;
+}
+.img-add {
+  width: 100%;
 }
 </style>
