@@ -30,8 +30,10 @@
         <div class="d-flex">
           <img src="@/assets/images/dog1.webp" alt="" class="img-dog w-25 rounded me-2">
           <div>
-            <h5 class="text-left">Fora do Campus</h5>
-            <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+            <router-link to="/viewPost" class="nav-link">
+              <h5 class="text-left">Fora do Campus</h5>
+              <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+            </router-link>
           </div>
         </div>
         <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:26</p>
@@ -45,8 +47,10 @@
         <div class="d-flex">
           <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded me-2">
           <div>
-            <h5 class="text-left">Fora do Campus</h5>
-            <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+            <router-link to="/viewPost" class="nav-link">
+              <h5 class="text-left">Fora do Campus</h5>
+              <p class="text-left">O cachorrinho estava fora do campus brincando com um cachorro de fora.</p>
+          </router-link>
           </div>
         </div>
         <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:40</p>
@@ -60,8 +64,10 @@
         <div class="d-flex">
           <img src="@/assets/images/dog3.webp" alt="" class="img-dog w-25 rounded me-2">
           <div>
-            <h5 class="text-left">Outro lado da BR</h5>
-            <p class="text-left">Vi ele brincando do outro lado da BR numa poça de água.</p>
+            <router-link to="/viewPost" class="nav-link">
+              <h5 class="text-left">Outro lado da BR</h5>
+              <p class="text-left">Vi ele brincando do outro lado da BR numa poça de água.</p>
+          </router-link>
           </div>
         </div>
           <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:55</p>
@@ -75,8 +81,10 @@
         <div class="d-flex">
           <img src="@/assets/images/dog2.jpg" alt="" class="img-dog w-25 rounded me-2">
           <div>
-            <h5 class="text-left">Ownt!</h5>
-            <p class="text-left">Ele é muito fofoo!!.</p>
+            <router-link to="/viewPost" class="nav-link">
+              <h5 class="text-left">Ownt!</h5>
+              <p class="text-left">Ele é muito fofoo!!.</p>
+          </router-link>
           </div>
         </div>
           <p class="fw-lighter fs-6">Postado em 14/12/2022 às 14:59</p>
