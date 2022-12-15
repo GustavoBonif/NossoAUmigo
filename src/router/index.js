@@ -23,6 +23,11 @@ const router = createRouter({
       name: "dogProfile",
       component: () => import("../views/dogProfileView.vue"),
     },
+    {
+      path: "/cadPost",
+      name: "cadPost",
+      component: () => import("../views/CadPostView.vue"),
+    },
   ]
 })
 

@@ -4,7 +4,7 @@
 
 <template>
     <div id="add-button" class="hidden-md-down">
-        <a href="#" class="link-dark text-dark"><img src="@/assets/images/add.png" class="img-add"></a>
+        <router-link to="cadPost"><img src="@/assets/images/add.png" class="img-add"></router-link>
 	</div>
     <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">

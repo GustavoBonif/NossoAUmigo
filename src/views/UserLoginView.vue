@@ -13,7 +13,7 @@
             <button type="submit" class="btn btn btn-outline-success">Entrar</button>
         </div>
         <div class="text-center mt-2">
-            <router-link to="/userRegister" class="text-dark">Cadastra-se</router-link>
+            <router-link to="/userRegister" class="text-dark">Cadastrar-se</router-link>
         </div>
     </form>
 </template>
