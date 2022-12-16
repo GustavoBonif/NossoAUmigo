@@ -25,5 +25,20 @@ export const useUserStore = defineStore({
         return Promise.reject(e);
       }
     },
+    async loginUser(user) {
+      try {
+
+        const { data } = await axios.post(
+          "http://localhost:4000/users",
+          user
+        );
+
+        this.users.push(data);
+        return Promise.resolve("Login realizado com sucesso!");
+      } catch (e) {
+        console.error(e);
+        return Promise.reject(e);
+      }
+    },
   },
 });
