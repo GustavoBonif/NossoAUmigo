@@ -33,6 +33,11 @@ const router = createRouter({
       name: "cadPost",
       component: () => import("../views/CadPostView.vue"),
     },
+    {
+      path: "/dogHistoryMedical",
+      name: "dogHistoryMedical",
+      component: () => import("../views/MedicalHistory.vue"),
+    },
   ]
 })
 
