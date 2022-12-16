@@ -43,19 +43,19 @@ export default {
         <div class="mb-3">
             <div class="row">
                 <label for="userName" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="userName" placeholder="Exemplo: João da Silva" v-model="user.name">
+                <input required type="text" class="form-control" id="userName" placeholder="Exemplo: João da Silva" v-model="user.name">
             </div>
         </div>
         <div class="mb-3">
             <div class="row">
                 <label for="userEmail" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="exemplo@gmail.com" v-model="user.email">
+                <input required type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="exemplo@gmail.com" v-model="user.email">
             </div>
         </div>
         <div class="mb-3">
             <div class="row">
                 <label for="userPassword" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="userPassword" placeholder="*********" v-model="user.password">
+                <input required type="password" class="form-control" id="userPassword" placeholder="*********" v-model="user.password">
             </div>
         </div>
         <div class="mb-3">
