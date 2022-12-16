@@ -18,7 +18,7 @@ export const useUserStore = defineStore({
           user
         );
 
-        this.users.push(data);
+        // this.users.push(data);
         return Promise.resolve("Usuário cadastrado com sucesso!");
       } catch (e) {
         console.error(e);
