@@ -17,11 +17,10 @@
                     <label for="exampleInputPassword1" class="form-label">Confirmar senha</label>
                 </div>
                 <div class="col">
-                    <div id="emailHelp" class="form-text text-danger">* Informe a mesma senha do campo acima. 
+                    <div id="emailHelp" class="form-text text-danger">* Informe a mesma senha do campo acima.</div>
                 </div>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
             </div>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
-        </div>
         </div>
         <button type="submit" class="btn btn btn-outline-success">Cadastrar</button>
     </form>
